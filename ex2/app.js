@@ -3,6 +3,10 @@ const b = document.getElementById("b")
 const result = document.getElementById("result")
 
 function operation(chars, a, b) {
+    if (isNaN(a) || isNaN(b)) {
+        alert("Wypełnij wszystkie pola")
+        return;
+    }
     switch (chars) {
         case "+":
             result.textContent = a + b
