@@ -1,22 +1,22 @@
-const number1 = document.getElementById("first");
-const number2 = document.getElementById("second");
 const calc = document.getElementById("button");
 const para = document.getElementsByTagName("p")[0];
 
-calc.addEventListener("click", (event) => {
-    para.textContent = "";
-    if (parseInt(number1.value) > parseInt(number2.value)) {
-        for (let i = parseInt(number1.value); i >= parseInt(number2.value); i--) {
-            para.textContent += i + " ";
-            event.preventDefault();
+calc.addEventListener("click", () => {
+    const number1 = parseInt(document.getElementById("first").value);
+    const number2 = parseInt(document.getElementById("second").value);
+    let text = "";
+
+    if (number1 > number2) {
+        for (let i = number1; i >= number2; i--) {
+            text += i + " ";
         }
         
     }
-    else if (parseInt(number1.value) <= parseInt(number2.value)) {
-        for (let i = parseInt(number1.value); i <= parseInt(number2.value); i++) {
-            para.textContent += i + " ";
-            event.preventDefault();
+    else if (number1 <= number2) {
+        for (let i = number1; i <= number2; i++) {
+            text += i + " ";
         }    
     }
+    para.textContent = text
 })
 
