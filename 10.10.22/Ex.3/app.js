@@ -11,3 +11,5 @@ function tip() {
     }
     setTimeout("tip()", 3500);
 }
+
+document.addEventListener("DOMContentLoaded", tip);
