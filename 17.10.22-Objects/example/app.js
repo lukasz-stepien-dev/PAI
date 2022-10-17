@@ -11,7 +11,10 @@ let bankAccount = {
     name: "Łukasz",
     surname: "Stępień",
     accountNumber: 123456793931246236382764891234n,
-    balance: 1000000000000000000000000n
+    balance: 1000000000000000000000000n,
+    showFullName() {
+        document.write(this.name + " " + this.surname);
+    }
 };
 
 let house = {
@@ -25,7 +28,9 @@ let house = {
 console.log(bankAccount);
 console.log(house);
 
-let user1 = generateUser("Łukasz", "luaksz@kljcdsklj", "Łódź", "Milioner");
+let user1 = generateUser("Łukasz", "luaksz@kljcdsklj", "Łódź"    , "Milioner");
 let user2 = generateUser("Jan", "krupa@jan", "Wieś", "Jeździ na rowerze" );
 console.log(user1);
 console.log(user2);
+
+bankAccount.showFullName();
