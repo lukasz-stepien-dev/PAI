@@ -3,6 +3,7 @@ phoneBook["blank"] = "";
 phoneBook["Kowalski"] = "123456789";
 phoneBook["Malinowski"] = "987654321";
 phoneBook["Nowak"] = "789123456";
+phoneBook["Łukasz"] = "42348209482309"
 
 function displatNumber(thePhoneBook, entry) {
     let theNumber = thePhoneBook[entry];
