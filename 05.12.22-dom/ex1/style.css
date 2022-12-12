@@ -4,4 +4,21 @@
 
 li {
     list-style-type: none;
+    transition: all 0.5;
+}
+
+input {
+    width: 95vw;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: burlywood;
+    transition: all 0.5s;
+}
+
+input:focus {
+    box-shadow: black 5px 5px 20px;
+    border-color: royalblue;
+    outline: none;
 }
