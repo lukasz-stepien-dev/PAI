@@ -8,11 +8,20 @@
 }
 
 body {
+    margin: 25px;
+    border: #084C61 solid;
+    border-radius: 20px;
     background-color: #FFC857;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 0.5s;
 }
+
+body:hover {
+    box-shadow: #084C61 0px 0px 20px;
+}
+
 
 input {
     margin: 10px;
