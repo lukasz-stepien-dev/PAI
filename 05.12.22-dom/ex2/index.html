@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Podziel się rachunkiem</h1>
+        <p>Podziel sie rachunkiem ze znajomym :)</p>
+    </header>
+    <main>
+        <label for="price">Kwota do zapłaty</label>
+        <input type="number" name="price" id="price">
+        <br>
+        <label for="members">Liczba osób</label>
+        <input type="number" name="members" id="members">
+        <br>
+        <label for="tip">Napiwek</label>
+        <select name="tip" id="tip">
+            <option value="0" disabled selected>-- Wybierz napiwek --</option>
+            <option value="0.05">5%</option>
+            <option value="0.1">10%</option>
+            <option value="0.15">15%</option>
+            <option value="0.2">20%</option>
+        </select>
+        <br>
+        <button>Oblicz</button>
+        <p id="error"></p>
+        <p id="cost-info" >Powinnście sie złozyć po <span id="cost"></span>zł! :)</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
