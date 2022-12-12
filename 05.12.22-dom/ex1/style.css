@@ -1,10 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* {box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+* {box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+    color: #323031;
+}
+
+body {
+    background-color: #FFC857;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 li {
     list-style-type: none;
-    transition: all 0.5;
+    }
+
+li:hover {
+    font-weight: bold;
 }
 
 input {
@@ -13,12 +29,15 @@ input {
     padding: 10px;
     font-size: 20px;
     border-style: solid;
-    border-color: burlywood;
+    border-color: #084C61;
+    background-color: #FFC857;
     transition: all 0.5s;
 }
 
 input:focus {
-    box-shadow: black 5px 5px 20px;
-    border-color: royalblue;
+    box-shadow: #084C61 5px 5px 20px;
+    border-color: #177E89;
+    background-color: #323031;
+    color: whitesmoke;
     outline: none;
 }

@@ -1,6 +1,10 @@
-document.querySelector('#search').addEventListener('keyup', (event) => {
+const searchBar = document.querySelector('#search');
+const body = document.querySelector('body');
+const lis = document.querySelectorAll('li');
+
+
+searchBar.addEventListener('keyup', (event) => {
     const text = event.target.value.toLowerCase();
-    const lis = document.querySelectorAll('li');
     let everythingNone = true
 
     //for (let i = 0; i < lis.length; i++) {
