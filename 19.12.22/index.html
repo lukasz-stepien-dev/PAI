@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidator formularza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Zarejestruj sie!</h1>
+            <div class="form-box">
+                <label for="username">Nazwa użytkownika:</label>
+                <input type="text" id="username" placeholder="Podaj swoją nazwe użytkownika">
+                <p class="error-text">error</p>
+            </div>
+            <div class="form-box">
+                <label for="password">Hasło:</label>
+                <input type="password" name="password" id="password" placeholder="Podaj hasło">
+                <p class="error-text">error</p>
+            </div>
+            <div class="form-box">
+                <label for="repeat-password">Powtórz hasło:</label>
+                <input type="password" name="repeat-password" id="repeat-password" placeholder="Powtórz hasło">
+                <p class="error-text">error</p>
+            </div>
+            <div class="form-box">
+                <label for="email">Podaj email:</label>
+                <input type="email" name="email" id="email" placeholder="Podaj swój email">
+                <p class="error-text">error</p>
+            </div>
+            <div class="control-buttons">
+                <button class="clear">Wyczyść</button>
+                <button class="send">Wyślij</button>
+            </div>
+            <div class="popup">
+                <p>Formularz został poprawnie przesłany!</p>
+                <button class="close">Zamknij</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
