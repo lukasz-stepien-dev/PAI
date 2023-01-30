@@ -1,0 +1,9 @@
+* {box-sizing: border-box;}
+
+div {
+    cursor: pointer;
+}
+
+div::selection {
+    background-color: white;
+}
