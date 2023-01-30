@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Unbounded', cursive;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.wrapper {
+    width: 440px;
+    background-color: #fff;
+    box-shadow: 0 0 20px #000;
+    transition: all 0.5s;
+}
+
+.wrapper:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #000;
+    border-radius: 20px;
+}
+
+form {
+    padding: 40px;
+    font-size: 20px;
+    margin: 10px;
+    border: #23d5ab solid 5px;
+    transition: all 0.5s;
+}
+
+form:hover {
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-box {
+    margin-bottom: 15px;
+}
+
+.form-box label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-box input {
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
+
+input:focus {
+    transform: scale(1.1) rotate(-0.8deg);
+}
+
+.form-box.error input {
+    border: 1px solid red;
+    background-color: rgb(255, 208, 208);
+}
+
+.form-box .error-text {
+    visibility: hidden;
+    margin: 5px 0 0 3px;
+    font-size: 12px;
+    color: red;
+}
+
+.form-box.error .error-text {
+    visibility: visible;
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.send,
+.clear,
+.close {
+    display: block;
+    padding: 10px 0;
+    margin-left: 10px;
+    width: 100px;
+    font-size: 18px;
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.send:hover,
+.clear:hover,
+.close:hover {
+    background-color: #23d5ab;
+    transform: scale(1.1);
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    top: -300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 2px solid black;
+    transition: all .5s;
+} 
+
+.popup p {
+    font-size: 28px;
+}
+
+.popup button {
+    margin-top: 20px;
+}
+
+.show-popup {
+    top: 150px;
+}
