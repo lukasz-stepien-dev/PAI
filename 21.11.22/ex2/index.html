@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+</head>
+<body>
+    
+    <form action="#">
+        <label for="full-name">Imie: </label>
+        <input id="full-name" type="text">
+        <br>
+        <label for="province">Województwo: </label>
+        <select name="province" id="province" size="1">
+            <option value="blank">-- Wybierz opcje --</option>
+            <option value="slaskie">śląskie</option>
+            <option value="lodzkie">łódzkie</option>
+            <option value="mazowieckie">mazowieckie</option>
+            <option value="wielkopolskie">wielkopolskie</option>
+        </select>
+        <br>
+        Pleć:
+        <input type="radio" name="male" id="male">
+        <label for="male">Mężczyzna</label>
+        <input type="radio" name="female" id="female">
+        <label for="female">Kobieta</label>
+        <br>
+        <input id="submit" type="submit" value="Zapisz">
+    </form>
+    <p id="error-name"></p>
+    <p id="error-province"></p>
+    <p id="error-gender"></p>
+    <script src="script.js"></script>
+</body>
+</html>
