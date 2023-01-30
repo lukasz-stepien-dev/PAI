@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #323031;
+}
+
+body {
+    margin: 25px;
+    border: #084C61 solid;
+    border-radius: 20px;
+    background-color: #FFC857;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+body:hover {
+    box-shadow: #084C61 0px 0px 20px;
+}
+
+
+input {
+    margin: 10px;
+    outline: none;
+    line-height: 20px;
+    font-size: 15px;
+    border: solid ;
+    border-radius: 10px;
+    background-color: #FFC857;
+    transition: all 0.4s cubic-bezier(0,2,0,0);
+    border-color: #084C61;
+}
+
+input:focus {
+    color: whitesmoke;
+    background-color: #323031;
+    box-shadow: #177E89 0px 0px 10px;
+    border-color: #177E89;
+    transform: scale(1.5);
+}
+
+select {
+    outline: none;
+    margin: 10px;
+    background-color: #FFC857;
+    border-color: #084C61;
+}
+
+select:active {
+    color: whitesmoke;
+    background-color: #323031;
+    box-shadow: #177E89 0px 0px 10px;
+    border-color: #177E89;
+}
+
+button {
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #FFC857;
+    border: solid #084C61;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color: #323031;
+    box-shadow: #177E89 0px 0px 10px;
+    border-color: #177E89;
+} 
+
+#cost-info {
+    display: none;
+}
+
+#error {
+    color: #DB3A34;
+}
