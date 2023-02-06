@@ -15,7 +15,7 @@
     */
 
     // Welcome
-    // Variablex and types
+    // Variables and types
     $name = "Łukasz";
     $age = 20;
     $x = 9;
@@ -26,6 +26,7 @@
 
     // Simple arrays
     $numbers = [1, 2, 3, 4, 5, 11, 12, 90];
+    $numbers2 = [5, 8, 0];
     $numbers[5] = 1100; // Will change the 6th item
     unset($numbers[0]); // Will remove the 1st item
     echo "\nAmount values of the array: ".count($numbers); // Will count amount of array
@@ -33,8 +34,11 @@
     echo "\n<br>Last item of the array is ".end($numbers); // Will show last item of the array;
     echo "\n<br>Fouth item of the array is $numbers[3]"; // Will show fouth item of the array;
     echo "\n<br>Last index of the array is ".(count($numbers) - 1); // Wil show last index of the array
-    array_push($numbers, 6); // Push a member to the end of the array;
-    array_pop($numbers); // Pop a member of the end of the array
+    array_push($numbers, 6); // Push a member to the end of the array
+    array_pop($numbers); // Pop a member to the end of the array
+    array_shift($numbers, 0); // Push a member from the beginning of the array
+    array_unshift($numbers); // Pop a member from the beginnig of the array
+    $all_numbers = array_merge($numbers, $numbers2); // concatenating arrays
     ?>
 </body>
 </html>
