@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz o JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>JavaScript Quiz</h1>
+<form action="index.php" method="get">
+    <label for="first-name">Imie</label><br>
+    <input type="text" name="first_name" id="first-name"><br>
+    <label for="last-name">Nazwisko</label><br>
+    <input type="text" name="last_name" id="last-name"><br>
+    <label for="age">Wiek</label><br>
+    <input type="number" name="age" id="age"><br>
+    <label for="phone-number">Numer telefonu</label><br>
+    <input type="tel" name="phone_number" id="phone-number"><br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email"><br>
+    <label for="gender">Płeć</label>
+    <select name="gender" id="gender">
+        <option value="female">Kobieta</option>
+        <option value="male">Męźczyzna</option>
+    </select><br>
+    <label for="city">Miasto zamieszkania</label><br>
+    <input type="text" name="city" id="city">
+
+    <p>Za pomocą czego deklarujemy zmienna?</p>
+    <input type="radio" name="q1" id="let" value="let">
+    <label for="let">let</label><br>
+    <input type="radio" name="q1" id="int" value="int">
+    <label for="let">int</label><br>
+    <input type="radio" name="q1" id="dollar" value="dollar">
+    <label for="let">$</label><br>
+
+    <p>Zaznacz zdania prawdziwe o JavaScript.</p>
+    <input type="checkbox" name="q2" id="static" value="static">
+    <label for="static">JS jest statycznie typowany</label><br>
+    <input type="checkbox" name="q2" id="dynamic" value="dynamic">
+    <label for="dynamic">JS jest dynamicznie typowany</label><br>
+
+    <label for="code">
+        <ol>
+            <li>Zadeklaruj tablice</li>
+            <li>Wypełnij tablice</li>
+            <li>Napisz funkcje która zmienia wszystkie dane w tej tablicy</li>
+        </ol>
+    </label>
+    <input type="text" name="q3" id="code"><br>
+
+    <label for="color">Jaki kolor kojarzy ci sie z JavaScriptem?</label>
+    <input type="color" name="q4" id="color"><br>
+
+    <label for="frameworks">Wymień wszystkie frameworki i biblioteki JS, które znasz</label>
+    <input type="text" name="q5" id="frameworks"><br>
+
+    <input type="submit" value="Koniec">
+    <input type="reset" value="Wyczyść">
+</form>
+</body>
+</html>
