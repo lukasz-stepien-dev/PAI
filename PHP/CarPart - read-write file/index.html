@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Części samochodowe Janka</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Cześci samochodowe Janka</h1>
+    <h2>Formularz zamówień</h2>
+    <form action="processing%20orders.php" method="get">
+      <table>
+        <tr>
+          <th>Produkt</th>
+          <th>Ilość</th>
+        </tr>
+        <tr>
+          <td>Opony</td>
+          <td>
+            <input type="number" name="amount_of_tires" id="amount-of-tires" />
+          </td>
+        </tr>
+        <tr>
+          <td>Olej</td>
+          <td>
+            <input type="number" name="amount_of_oil" id="amount-of-oil" />
+          </td>
+        </tr>
+        <tr>
+          <td>Świece zapłonowe</td>
+          <td>
+            <input
+              type="number"
+              name="amount_of_sparks"
+              id="amount-of-sparks"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Imie</td>
+          <td>
+            <input type="text" name="first_name" id="first-name" size="20" />
+          </td>
+        </tr>
+        <tr>
+          <td>Nazwisko</td>
+          <td>
+            <input type="text" name="last_name" id="last-name" size="20" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" value="Złóż zamówienie" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

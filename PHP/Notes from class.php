@@ -24,11 +24,11 @@
     // Operatory
     $a = 4;
     $b = 2;
-    $suma = $a + $b;
+    $total = $a + $b;
     $wyr = (($a+$b) * $b) / (($a+$b) / ($a-$b));
     $pierwiastek = sqrt($a);
     $potega = $a**$b;
-    echo "Suma liczb wynosi $suma<br>";
+    echo "Suma liczb wynosi $total<br>";
     echo "Wartość wyrażenia wynosi $wyr<br>";
     echo "Pierwiastek wynosi $pierwiastek<br>";
     echo "Potega wynosi $potega<br>";
