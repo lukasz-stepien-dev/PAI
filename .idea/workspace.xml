@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="Create Course and move files from course">
-      <change afterPath="$PROJECT_DIR$/PHP/Classes/Mammal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/Classes/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/Classes/Square.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/Classes/introduction.php" afterDir="false" />
+    <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="Exercises">
+      <change afterPath="$PROJECT_DIR$/PHP/Classes/Car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677503206314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercises">
+      <created>1685362116563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685362116563</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Course and move files from course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Course and move files from course" />
+    <MESSAGE value="Exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercises" />
   </component>
 </project>
