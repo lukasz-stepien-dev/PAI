@@ -1,0 +1,2 @@
+SELECT nazwa,ulica FROM kwiaciarnie WHERE miasto = 'Malbork';
+
