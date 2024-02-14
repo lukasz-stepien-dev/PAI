@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="Exercises">
-      <change afterPath="$PROJECT_DIR$/PHP/Classes/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/14-02-24/biuro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/14-02-24/img/grecja.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/14-02-24/img/hiszpania.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/14-02-24/img/polska.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/14-02-24/img/wlochy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/14-02-24/regulamin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/14-02-24/styl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/24-01-24/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/24-01-24/kula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/24-01-24/stozek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/24-01-24/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/24-01-24/walec.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/img/gerbera.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam/img/gerbera.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/img/gozdzik.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam/img/gozdzik.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/img/roza.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam/img/roza.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/kwerendy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam/kwerendy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/styles/styl3.css" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam/styles/styl3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/znajdz.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam/znajdz.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +33,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -52,6 +78,9 @@
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2M05PoDMho1yzCNgM9mFC98gZ1G" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,21 +91,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Classes",
-    "last_opened_file_path": "E:/PHP",
+    "git-widget-placeholder": "main",
+    "last_directory_selection": "/Users/macbookpro/1 - Projects/PAI/Exam/img",
+    "last_opened_file_path": "/Users/macbookpro/1 - Projects/PAI/JS/24-01-24",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JS/24-01-24" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Exam/14-02-24/img" />
+      <recent name="$PROJECT_DIR$/Exam/Exam" />
+      <recent name="$PROJECT_DIR$/Exam" />
       <recent name="E:\XAMPP\htdocs\PAI\PHP\Course" />
       <recent name="E:\XAMPP\htdocs\PAI\30.01.22 &amp; 06.02.23 - PHP\CarPart - read-write file" />
     </key>
@@ -85,6 +124,13 @@
     <configuration name="localhost" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/PAI/PHP/Arrays/index.php">
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,6 +143,8 @@
       <workItem from="1676891641599" duration="6917000" />
       <workItem from="1677494950084" duration="7476000" />
       <workItem from="1677503026448" duration="382000" />
+      <workItem from="1706100235805" duration="1698000" />
+      <workItem from="1707920508022" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="Create Course and move files from course">
       <created>1677503206314</created>

@@ -1,0 +1,23 @@
+body {
+    background-color: #4b8f8c;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+hr {
+    height: 4px;
+    background-color: #ffffff;
+}
