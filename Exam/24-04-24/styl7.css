@@ -2,6 +2,10 @@
     font-family: 'Cambria';
 }
 
+body {
+    margin: 0px;
+}
+
 nav, section {
     background-color: #E1BEE7;
     width: 25%;
@@ -9,25 +13,36 @@ nav, section {
 
 nav {
     height: 400px;
+    float: left;
 }
 
 section {
-    height: 300px;
+    height: 330px;
+    float: left;
 }
 
 header, main {
     width: 75%;
     font-size: 170%;
     text-align: center;
+}
+
+header {
+    background-color: #9C64A6;
+    color: white;
+    height: 150px;
     letter-spacing: 5px;
+    float: right;
 }
 
 main {
     color: Indigo;
     height: 580px;
+    float: right;
 }
 
 footer {
+    clear: both;
     background-color: #9C64A6;
     color: white;
     padding: 10px;
@@ -38,7 +53,7 @@ h2 {
 }
 
 ul {
-    list-style: circle;
+    list-style-type: circle;
 }
 
 img {
