@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="14-02-24">
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/ee_09_2022_01_04_SG_kolor.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/egzamin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/kw1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/kw2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/kw3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/kw4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/kwerendy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/logowanie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/obraz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/regulamin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/styl4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/17-04-24/uzytkownicy.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="24-04-24 init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,25 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_directory_selection": "/Users/macbookpro/1 - Projects/PAI/Exam/img",
-    "last_opened_file_path": "/Users/macbookpro/1 - Projects/PAI/JS/24-01-24",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.idesettings.emmet",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/macbookpro/1 - Projects/PAI/Exam/img&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/1 - Projects/PAI/JS/24-01-24&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.emmet&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JS/24-01-24" />
@@ -137,6 +121,7 @@
       <workItem from="1708524355288" duration="226000" />
       <workItem from="1713352989859" duration="162000" />
       <workItem from="1713353168377" duration="5875000" />
+      <workItem from="1713964606298" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="Create Course and move files from course">
       <created>1677503206314</created>
@@ -160,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707921898604</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="24-04-24 init">
+      <option name="closed" value="true" />
+      <created>1713964875198</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713964875198</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +174,7 @@
     <MESSAGE value="Create Course and move files from course" />
     <MESSAGE value="Exercises" />
     <MESSAGE value="14-02-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="14-02-24" />
+    <MESSAGE value="24-04-24 init" />
+    <option name="LAST_COMMIT_MESSAGE" value="24-04-24 init" />
   </component>
 </project>
