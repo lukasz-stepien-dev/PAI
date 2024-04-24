@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="24-04-24 empty html">
-      <change afterPath="$PROJECT_DIR$/Exam/24-04-24/styl7.css" afterDir="false" />
+    <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="24-04-24 navbar, aside and header in html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exam/24-04-24/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/24-04-24/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exam/24-04-24/twarz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/24-04-24/twarz.html" afterDir="false" />
@@ -126,7 +125,7 @@
       <workItem from="1708524355288" duration="226000" />
       <workItem from="1713352989859" duration="162000" />
       <workItem from="1713353168377" duration="5875000" />
-      <workItem from="1713964606298" duration="1012000" />
+      <workItem from="1713964606298" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="Create Course and move files from course">
       <created>1677503206314</created>
@@ -174,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713965385103</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="24-04-24 navbar, aside and header in html">
+      <option name="closed" value="true" />
+      <created>1713965912310</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713965912310</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="24-04-24 init" />
     <MESSAGE value="24-04-24 scaled imgs" />
     <MESSAGE value="24-04-24 empty html" />
-    <option name="LAST_COMMIT_MESSAGE" value="24-04-24 empty html" />
+    <MESSAGE value="24-04-24 navbar, aside and header in html" />
+    <option name="LAST_COMMIT_MESSAGE" value="24-04-24 navbar, aside and header in html" />
   </component>
 </project>
