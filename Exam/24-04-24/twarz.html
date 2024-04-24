@@ -28,16 +28,31 @@
 </header>
 <main>
     <h3>Kalkulator ceny wizyty</h3>
-    <form action="#" method="post">
-        <input type="checkbox" name="peeling" id="peeling">Peeling<br>
-        <input type="checkbox" name="mask" id="mask">Maska<br>
-        <input type="checkbox" name="massage" id="massage">Masaż twarzy<br>
-        <input type="checkbox" name="makeup" id="makeup">Makijaż<br>
-        <input type="submit" value="Oblicz cenę">
+    <form id="formularz">
+        <input type="checkbox" name="peeling" id="peeling" value="45">Peeling<br>
+        <input type="checkbox" name="mask" id="mask" value="30">Maska<br>
+        <input type="checkbox" name="massage" id="massage" value="20">Masaż twarzy<br>
+        <input type="checkbox" name="makeup" id="makeup" value="50">Makijaż<br>
+        <input type="button" value="Oblicz cenę" onclick="obliczCene()">
     </form>
+    <p id="wynik"></p>
 </main>
 <footer>
     <p>Autor: 00000000000</p>
 </footer>
+
+<script>
+    function obliczCene() {
+        var formularz = document.getElementById('formularz');
+        var suma = 0;
+        for (var i = 0; i < formularz.length; i++) {
+            if (formularz[i].checked) {
+                suma += parseFloat(formularz[i].value);
+            }
+        }
+        document.getElementById('wynik').innerHTML = "Cena zabiegów: " + suma;
+    }
+</script>
+
 </body>
 </html>
