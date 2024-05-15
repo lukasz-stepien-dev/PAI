@@ -1,0 +1,7 @@
+SELECT filmy.tytul, filmy.rok, filmy.ocena FROM filmy, gatunki WHERE gatunki.id = 5 AND filmy.gatunki_id = gatunki.id;
+
+SELECT filmy.id, filmy.tytul, rezyserzy.imie, rezyserzy.nazwisko FROM filmy, rezyserzy, WHERE filmy.rezyserzy_id = rezyserzy.id
+
+SELECT filmy.id, filmy.tytul FROM filmy WHERE filmy.rok = 2017 AND filmy.ocena = 6;
+
+UPDATE rezyserzy SET imie = "Francis Ford" WHERE id = 8
