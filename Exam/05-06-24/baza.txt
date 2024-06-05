@@ -1,0 +1,31 @@
+Kwerenda 1: 
+CREATE TABLE pokoje (
+	id int unsigned,
+    nazwa varchar(20),
+    cena double
+);
+
+Kwerenda 2:
+ALTER TABLE pokoje ADD PRIMARY KEY (id);
+
+Kwerenda 3:
+INSERT INTO pokoje (id, nazwa, cena) VALUES
+(1, 'jednoosobowy', 100),
+(2, 'dwuosobowy', 170),
+(3, 'trzyosobowy', 210);
+
+Kwerenda 4: 
+ALTER TABLE rezerwacje
+ADD FOREIGN KEY (id_pok) REFERENCES pokoje(id);
+
+Kwerenda 5:
+SELECT rezerwacje.id_pok, SUM(rezerwacje.liczba_dn) FROM rezerwacje  GROUP BY rezerwacje.id_pok;
+
+Kwerenda 6:
+SELECT SUM(rezerwacje.liczba_dn) FROM `rezerwacje` WHERE sezon = 'lato';
+
+Kwerenda 7:
+UPDATE pokoje SET cena = cena * 1.15;
+
+Kwerenda 8:
+CREATE USER najemca IDENTIFIED BY 'n@JEM1@!';

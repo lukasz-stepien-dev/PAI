@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="15-05-24 Done exam">
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/INF_03_2021_06_01_SD_zo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/arbuz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/dane.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/ee_09_2021_06_02_SG_kolor.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/egzamin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/gruszka.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/koper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/kw1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/kw2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/kw3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/kw4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/kwerendy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/marchew.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/morela.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/owoce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/papaja.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/papryka.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/sklep.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/styl2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/15-05-24-2/ziemniak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/baza.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/cennik.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/e_14_2020_06_02_SG_kolor.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/kalkulator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/kw5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/kw6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/rezerwacje.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/styl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,38 +75,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "PHP Script.index.php.executor": "Run",
-    "PHP Script.sklep.php.executor": "Debug",
-    "PHP Web Page.localhost.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_directory_selection": "/Users/macbookpro/1 - Projects/PAI/Exam/img",
-    "last_opened_file_path": "/Users/macbookpro/1 - Projects/PAI/JS/24-01-24",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.idesettings.emmet",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.sklep.php.executor&quot;: &quot;Debug&quot;,
+    &quot;PHP Web Page.localhost.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/macbookpro/1 - Projects/PAI/Exam/img&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/1 - Projects/PAI/JS/24-01-24&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.emmet&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JS/24-01-24" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Exam/05-06-24" />
       <recent name="$PROJECT_DIR$/Exam/15-05-24-2" />
       <recent name="$PROJECT_DIR$/Exam/15-05-24" />
       <recent name="$PROJECT_DIR$/Exam/24-04-24" />
       <recent name="$PROJECT_DIR$/Exam/17-04-24" />
-      <recent name="$PROJECT_DIR$/Exam/14-02-24/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -151,6 +143,7 @@
       <workItem from="1715775348682" duration="1291000" />
       <workItem from="1715778402148" duration="763000" />
       <workItem from="1716730369897" duration="794000" />
+      <workItem from="1717584570674" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="Create Course and move files from course">
       <created>1677503206314</created>
