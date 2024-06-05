@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miernik jakości hasła</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header><h1><a href="index.html">Sprawdź swoje hasło</a></h1></header>
+    <aside>
+        <h2>Wybierz</h2>
+        <ol>
+            <li><a href="haslo.html">Sprawdź swoje hasło</a></li>
+            <li><a href="zasady.html">Zasady tworzenia hasła</a></li>
+        </ol>
+    </aside>
+    <main>
+        <p>Twoje hasło:</p>
+        <input type="password">
+        <button>Sprawdź</button>
+    </main>
+    <footer>
+        <h3>Miernik jakości hasła</h3>
+        <p>Stronę opracował: Łukasz Stępień</p>
+    </footer>
+    <script>
+        function checkPassword(string) {
+            let flag = false
+            let value = string.split("");
+            if (value.length > 6)
+            {
+                value.forEach(el => {
+                    if (el == "0" || el == "1" || el == "2" || el == "3" || el == "4" || el == "5" || el == "6" || el == "7" || el == "8" || el == "9")
+                    {
+                        flag = true;
+                    }
+                });
+            }
+
+            if (flag == true) return "DOBRE";
+
+            flag = false;
+            if (value.length < 7 && value.length > 3)
+            {
+                value.forEach(el => {
+                    if (el == "0" || el == "1" || el == "2" || el == "3" || el == "4" || el == "5" || el == "6" || el == "7" || el == "8" || el == "9")
+                    {
+                        flag = true;
+                    }
+                });
+            }
+
+            if (flag == true) return "ŚREDNIE";
+
+            return "SŁABE"
+        }
+
+        document.querySelector('button').addEventListener('click', () => {
+            let info = document.querySelector('#info');
+            if (info)
+            {
+                info.remove();
+            }
+
+            let inputValue = document.querySelector('input').value;
+            let para = document.createElement('p');
+            para.id = 'info';
+
+            if (inputValue == "")
+            {
+                para.textContent = "WPISZ HASŁO!";
+            }
+            else 
+            {
+                para.textContent = checkPassword(inputValue);
+            }
+            document.querySelector('main').appendChild(para);
+        })
+    </script>
+</body>
+</html>

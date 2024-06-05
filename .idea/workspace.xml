@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="15-05-24 Done exam">
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/baza.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/cennik.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/e_14_2020_06_02_SG_kolor.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/kalkulator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/kw5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/kw6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/rezerwacje.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam/05-06-24/styl.css" afterDir="false" />
+    <list default="true" id="27ecb2a9-c59d-419e-9b4c-31c541aaf3ee" name="Changes" comment="05-06-24 Done exam">
+      <change afterPath="$PROJECT_DIR$/Exam/05-06-24-2/e_14_2016_08_01_kolor.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,11 +91,11 @@
       <recent name="$PROJECT_DIR$/JS/24-01-24" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Exam/05-06-24-2" />
       <recent name="$PROJECT_DIR$/Exam/05-06-24" />
       <recent name="$PROJECT_DIR$/Exam/15-05-24-2" />
       <recent name="$PROJECT_DIR$/Exam/15-05-24" />
       <recent name="$PROJECT_DIR$/Exam/24-04-24" />
-      <recent name="$PROJECT_DIR$/Exam/17-04-24" />
     </key>
   </component>
   <component name="RunManager">
@@ -143,7 +132,7 @@
       <workItem from="1715775348682" duration="1291000" />
       <workItem from="1715778402148" duration="763000" />
       <workItem from="1716730369897" duration="794000" />
-      <workItem from="1717584570674" duration="624000" />
+      <workItem from="1717584570674" duration="1745000" />
     </task>
     <task id="LOCAL-00001" summary="Create Course and move files from course">
       <created>1677503206314</created>
@@ -231,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715777011020</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="05-06-24 Done exam">
+      <option name="closed" value="true" />
+      <created>1717588897997</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717588897997</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +257,7 @@
     <MESSAGE value="24-04-24 kw 3 and 4" />
     <MESSAGE value="24-04-24 script" />
     <MESSAGE value="15-05-24 Done exam" />
-    <option name="LAST_COMMIT_MESSAGE" value="15-05-24 Done exam" />
+    <MESSAGE value="05-06-24 Done exam" />
+    <option name="LAST_COMMIT_MESSAGE" value="05-06-24 Done exam" />
   </component>
 </project>
